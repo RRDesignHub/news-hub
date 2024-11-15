@@ -12,7 +12,7 @@ export const NewsDetails = () => {
         <Header></Header>
       </header>
 
-      <div className="w-11/12 mx-auto md:grid grid-cols-12 gap-6 my-5 max-sm:space-y-8">
+      <div className="w-11/12 mx-auto md:grid grid-cols-12 gap-6 my-5 max-sm:space-y-8 font-nunito">
         <div className="col-span-9">
           <h2 className="text-xl font-bold text-gray-1">News Hub</h2>
           <div className="divider mt-0"></div>

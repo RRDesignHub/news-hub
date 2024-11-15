@@ -60,7 +60,7 @@ export const Login = () => {
             </label>
           </div>
           <div className="form-control mt-6">
-            <button className="btn bg-gray-1 text-white hover:text-gray-1">Login</button>
+            <button className="btn bg-gray-1 text-white hover:bg-gray-1">Login</button>
           </div>
         </form>
         <p className="text-center font-semibold">Dont’t Have An Account ? <Link to='/auth/register' className="text-red-500">Register</Link></p>

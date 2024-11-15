@@ -98,7 +98,7 @@ export const Register = () => {
             <p className="text-xs text-red-500">{error}</p>
           </label>
         <div className="form-control mt-6">
-          <button className="btn bg-gray-1 text-white hover:text-gray-1">
+          <button className="btn bg-gray-1 text-white  hover:bg-gray-1">
             Register
           </button>
         </div>

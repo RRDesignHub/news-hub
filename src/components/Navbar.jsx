@@ -6,7 +6,7 @@ export const Navbar = () => {
   const {user, logOut} = useContext(AuthContext); 
   return (
     <>
-      <div className="flex max-sm:flex-col gap-y-3 justify-between items-center">
+      <div className="font-nunito flex max-sm:flex-col gap-y-3 justify-between items-center">
         <div>
           {user && <h3 className="btn btn-ghost bg-gray-2 text-gray-1">{user?.email}</h3>}
         </div>
