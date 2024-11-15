@@ -4,6 +4,7 @@ import { RightAside } from "../components/Aside/RightAside"
 import { Header } from "../components/Header"
 import { LatestNews } from "../components/LatestNews"
 import { Navbar } from "../components/Navbar"
+import { Footer } from "../components/Footer"
 
 export const HomeLayout = () => {
   return (
@@ -15,7 +16,7 @@ export const HomeLayout = () => {
           <Navbar></Navbar>
         </nav>
       </header>
-      <main className="w-11/12 mx-auto md:grid grid-cols-12 max-sm:space-y-8 gap-5 mt-5">
+      <main className="w-11/12 mx-auto md:grid grid-cols-12 max-sm:space-y-8 gap-5 my-5">
         <aside className="col-span-3">
           <LeftAside></LeftAside>
         </aside>
@@ -26,6 +27,9 @@ export const HomeLayout = () => {
           <RightAside></RightAside>
         </aside>
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
   )
 }
